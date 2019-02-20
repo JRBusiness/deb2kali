@@ -29,9 +29,6 @@ apt install kali-defaults kali-root desktop-base xfce4 xfce4-places-plugin xfce4
 update-alternatives --config x-session-manager
 ### Select the option xfce4 ###
 
-### Install GIT ###
-apt install git
-
 ### Downgrade specific packages to their Kali Linux versions ###
 ### * Commented out since this is currently no longer necessary (2017-09-17).
 ###   Leaving it for future reference just in case.
