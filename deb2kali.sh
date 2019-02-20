@@ -5,7 +5,8 @@ apt update
 apt install -y dirmngr
 
 ### Add the Kali Linux GPG keys to aptitude ###
-apt-key adv --keyserver hkp://keys.gnupg.net --recv-key 7D8D0BF6
+wget https://http.kali.org/kali/pool/main/k/kali-archive-keyring/kali-archive-keyring_2018.1_all.deb
+apt install ./kali-archive-keyring_2018.1_all.deb
 
 ### Replace the Debian repos with Kali repos ###
 mv /etc/apt/sources.list /etc/apt/sources.list.debian
